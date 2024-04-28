@@ -1,0 +1,148 @@
+@media (max-width: $breakpoint_md){ 
+    
+
+body {
+    .header__content {
+        .reserve__form {
+            margin: 5%;
+            .reserve__form-title{
+                font-size: 35px;
+            }
+
+            .reserve__form-input {
+                gap: 2vh;
+
+                input {
+                    display: flex;
+                    flex-direction: column;  
+                    width: 200px;
+                    height: 30px;
+                    border-bottom: solid 2px #D7D7D7;
+                    color: #ffffff;  
+                }                 
+            }
+
+            .reserve__input-label {
+                gap: 2vh;
+                margin-top: 2vh;
+                
+                .reserve__submit-button { 
+                    margin-top: 2vh;
+
+                    &:hover {
+                        background-color: #D7D7D7;
+                        color:black;
+                        transition: 0.5s ease-in-out;         
+                    }
+                }
+            }
+        }
+    }
+} 
+
+}
+
+@media (max-width: $breakpoint_sm){
+
+    body {
+        .header__content {
+            .reserve__form {
+                max-width: 500px;
+                padding: 2vh;
+                margin: 5%;
+    
+                .reserve__form-title{
+                    font-size: 35px;
+                    padding: 2vh;
+                }
+    
+                .reserve__form-input {
+                    gap: 2vh;
+                    
+    
+                    input {
+                        display: flex;
+                        flex-direction: column;                           
+                        border-bottom: solid 2px #D7D7D7;
+                        color: #ffffff;  
+                    }                 
+                }
+    
+                .reserve__input-label {
+                    gap: 2vh;
+                    margin-top: 2vh;
+                    
+                    .reserve__submit-button { 
+                        margin-top: 2vh;
+                        margin-bottom: 2vh;
+    
+                        &:hover {
+                            background-color: #D7D7D7;
+                            color:black;
+                            transition: 0.5s ease-in-out;
+                            
+                            &:hover::after {
+                                background-color: #D7D7D7;
+                                color:black;
+                                transition: 0.5s ease-in-out;
+                        }
+    
+                    }
+                }
+    
+            }
+        }
+    } 
+    }
+}    
+
+
+    @media (max-width: $breakpoint_s){ 
+    
+
+        body {
+            .header__content {
+                .reserve__form {
+                    background-color: rgba(0, 0, 0, 0.0);
+                    max-width: 350px;
+                    margin: 5%;
+                    gap: 5vh;
+        
+                    .reserve__form-title{
+                        font-size: 25px;
+                        padding: 1vh;
+                        max-width: 300px;
+                    }
+        
+                    .reserve__form-input {
+                        gap: 5vh;
+                        
+        
+                        input {
+                            display: flex;
+                            flex-direction: column;  
+
+                            border-bottom: solid 2px #D7D7D7;
+                            color: #ffffff;  
+                        }                 
+                    }
+        
+                    .reserve__input-label {
+                        gap: 5vh;
+                        margin-top: 5vh;
+                        
+                        .reserve__submit-button { 
+                            margin-top: 2vh;
+                            margin-bottom: 2vh;
+        
+                            &:hover {
+                                background-color: #D7D7D7;
+                                color:black;
+                                transition: 0.5s ease-in-out;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }

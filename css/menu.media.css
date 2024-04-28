@@ -1,0 +1,10 @@
+body header .header__content .header__section-title {
+  font-size: 50px;
+  font-weight: 800;
+  color: #D7D7D7;
+  transition: 0.5s ease-in-out;
+}
+body header .header__content .header__menu-section .header__menu-wrap {
+  max-width: 200px;
+  max-height: 200px;
+}/*# sourceMappingURL=menu.media.css.map */

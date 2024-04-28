@@ -1,0 +1,123 @@
+
+
+@media (max-width: $breakpoint_l) {
+    body{
+        
+    header {
+        
+        
+        .header__content {
+            .header__section{
+
+                &.center {
+                    
+                }
+                        .header__section-wrapper {
+                        
+                        
+                        
+
+                        .header__section-info {
+                        
+                        
+                        
+                            .slide__about-title {
+                                font-size: 50px;
+                            }
+                            
+                            .slide__about-text {
+                                font-size: 15px;
+                                max-width: 900px;
+                            }
+                        }
+                        
+                        .carousel {
+                            margin: 1% 5% 1% 5%; 
+                            max-width: 800px;
+                        }   
+                        }
+                    }
+            }
+        }
+    }
+}
+
+@media (max-width: $breakpoint_sm) {
+    body{
+        
+    header {
+        
+        
+        .header__content {
+            .header__section{
+
+                &.center {
+                    
+                }
+                        .header__section-wrapper {
+                        
+                        
+                        
+
+                        .header__section-info {
+                        
+                        
+                        
+                            .slide__about-title {
+                                font-size: 35px;
+                            }
+                            
+                            .slide__about-text {
+                                 
+                            }
+                        }
+                        
+                        .carousel {
+                             
+                        }   
+                        }
+                    }
+            }
+        }
+    }
+}
+
+@media (max-width: $breakpoint_s) {
+    body{
+        
+    header {
+        
+        
+        .header__content {
+            .header__section{
+
+                &.center {
+                    
+                }
+                        .header__section-wrapper {
+                        
+                        
+                        
+
+                        .header__section-info {
+                        
+                        
+                        
+                            .slide__about-title {
+                                font-size: 25px;
+                            }
+                            
+                            .slide__about-text {
+                                font-size: 13px;
+                            }
+                        }
+                        
+                        .carousel {
+                             
+                        }   
+                        }
+                    }
+            }
+        }
+    }
+}

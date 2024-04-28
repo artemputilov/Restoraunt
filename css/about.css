@@ -1,0 +1,13 @@
+body header .header__content .header__section .title__main {
+  font-size: 90px;
+  font-weight: 800;
+  color: #D7D7D7;
+  transition: 0.5s ease-in-out;
+}
+body header .header__content .header__section .title_text {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 13%;
+  color: #D7D7D7;
+  transition: 0.5s ease-in-out;
+}/*# sourceMappingURL=about.css.map */

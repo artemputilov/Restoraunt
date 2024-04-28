@@ -1,0 +1,10 @@
+body header .header__content .header__section .header__section-wrapper .header__section-info .slide__about-title {
+  font-size: 50px;
+}
+body header .header__content .header__section .header__section-wrapper .header__section-info .slide__about-text {
+  font-size: 15px;
+}
+body header .header__content .header__section .header__section-wrapper .carousel {
+  margin: 1% 5% 1% 5%;
+  max-width: 800px;
+}/*# sourceMappingURL=about.media.css.map */

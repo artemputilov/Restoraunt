@@ -1,0 +1,11 @@
+@media (max-width: 750px) {
+  body header .header__content .header__section .logo {
+    width: 200px;
+  }
+  body header .header__content .header__section .header__title-main {
+    font-size: 70px;
+  }
+  body header .header__content .header__section .header__title-second {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=header-media.css.map */

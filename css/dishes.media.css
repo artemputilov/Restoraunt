@@ -1,0 +1,34 @@
+body header .header__content .header__section .header__menu-section .header__menu-block {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5vh;
+  padding-top: 5%;
+}
+body header .header__content .header__section .header__menu-section .header__menu-block .header__menu-position {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+body header .header__content .header__section .header__menu-section .header__menu-block .header__menu-position .menu__position-title {
+  color: #D7D7D7;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+body header .header__content .header__section .header__menu-section .header__menu-block .header__menu-position .menu__position-text {
+  font-size: 13px;
+  color: #888888;
+}
+body header .header__content .header__section .header__menu-section .header__menu-block .header__menu-position .menu__position-price {
+  color: #D7D7D7;
+}
+body header .header__content .header__section .header__menu-section .reservation__dishes {
+  color: #D7D7D7;
+  font-size: 15px;
+  font-weight: 300;
+  transition: 0.5s ease-in-out;
+  margin-top: 5%;
+}
+body header .header__content .header__section .header__menu-section .reservation__dishes:hover {
+  color: white;
+}/*# sourceMappingURL=dishes.media.css.map */

@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+    
+    body {
+        height: 100%;
+        margin: 0 auto;
+        font-family: "Montserrat", sans-serif;   
+    } 
+
+    .header__content {
+        opacity: 0; 
+    }
+
+    @keyframes fade{
+        0%{opacity:0;}
+        100%{opacity:1;}
+    }
+}
+
+// Сбрасываем CSS
+@import "./reset";
+// Подключаем шрифт
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+// Подключаем Бутстрап
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
+
+// Задаём переменные брейкпоинтов
+@import "./var";
+
+// Подключаем хедер
+@import "./blocks/index/header";
+@import "./blocks/index/header-media.scss";
+
+// Подключаем слайдер
+@import "./blocks/index/slider";
+
+// Подключаем страницу "О ресторане"
+@import "./blocks/about/about";
+@import "./blocks/about/about.media.scss";
+
+// Подключаем страницу "Меню"
+@import "./blocks/menu/menu";
+@import "./blocks/menu/menu.media.scss";
+
+// Подключаем страницы "Акции" и "События"
+@import "./blocks/offers.events/offers.events";
+@import "./blocks/offers.events/offers.events.media.scss";
+
+// Подключаем страницу "Контакты"
+@import "./blocks/contacts/contacts";
+@import "./blocks/contacts/contacts.media.scss";
+
+// Подключаем подстраницы "Блюда"
+@import "./blocks/dishes/dishes";
+@import "./blocks/dishes/dishes.media.scss";
+
+// Подключаем страницу "Бронь"
+@import "./blocks/reserve/reserve";
+@import "./blocks/reserve/reserve.media.scss";
+

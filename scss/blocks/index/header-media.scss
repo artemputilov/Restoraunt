@@ -1,0 +1,190 @@
+
+
+@media (max-width: $breakpoint_md) {
+    
+    body {
+        header {
+            .header__content {
+
+                .header__nav-menu {
+                    .header__nav-button {
+                        margin: 20px;
+                    }
+                }
+                
+                .header__section {
+                    .logo {
+                        width: 400px;
+                    }
+                
+                    .header__title-main{ 
+                        font-size: 70px;
+                    }
+                
+                    .header__title-second {
+                        font-size: 30px;
+                    }
+
+
+                    .span_1 {
+                    position: absolute;
+                    width: 35px;
+                    height: 3px; 
+                    background-color: #928E8E;
+                    border-radius: 5px;
+                    transform: translateY(-10px);
+                    transition: transform 0.2s ease-in-out;
+                    transition: 0.5s ease-in-out;
+                    
+                    } 
+
+                    .span_2 {
+                        position: absolute; 
+                        width: 30px;
+                        height: 3px;
+                        background-color: #928E8E;
+                        border-radius: 5px;
+                        transform: translateY(0px);
+                        transition: 0.5s ease-in-out; 
+                        
+                    } 
+
+                    .span_3 {
+                        position: absolute;
+                        width: 25px;
+                        height: 3px;
+                        background-color: #928E8E;
+                        border-radius: 5px;
+                        transform: translateY(10px);
+                        transition: transform 0.2s ease-in-out;
+                        transition: 0.5s ease-in-out;
+                    } 
+                }
+
+                
+
+                .header__socials 
+                {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    
+}    
+
+
+@media (max-width: $breakpoint_sm) {
+    
+    body {
+        header {
+            .header__content {
+                .header__nav-menu {
+                    .header__nav-button {
+                        margin: 20px 15px 0px 0px;
+                    }
+                }
+
+                .header__section {
+
+                    .logo {
+                        width: 300px;
+                    }
+                
+                    .header__title-main{ 
+                        padding-top: 10%;
+                        font-size: 45px;
+                        
+                    }
+                
+                    .header__title-second {
+                        font-size: 25px;
+                        
+                    }
+                }
+
+                .header__socials {
+                    flex-direction: row;
+                    padding-top:0;
+                    justify-content: center;
+                    
+
+                    .header__social-block {
+                        .header__social-text {
+                            display: none;
+                        }
+                
+                        .header__social-icon {
+                            background-size: 20px 20px;
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: $breakpoint_s) {
+
+
+    
+    body {
+        header {
+
+            .header__section {
+
+                margin: 3% 0 3%  0!important;
+
+                .header__nav-menu {
+                    .header__nav-button {
+                        margin: 20px 15px 0px 0px;
+                    }
+                }
+
+                .logo {
+                    width: 300px;
+                }
+            
+                .header__title-main{ 
+                    padding-top: 10% !important;
+                    font-size: 35px !important;
+                    
+                }
+            
+                .header__title-second {
+                    font-size: 20px !important;
+                    
+                }
+            }
+
+
+            .header__content {
+
+                .menu-list {
+                    width: 100%;
+                    left: -100% !important;
+                    justify-content: center;
+    
+                   .menu-logo {
+                     display: none;
+                   }
+            
+                //    .menu-item {
+                //    }
+    
+                    
+                   .reservation {
+                    font-size: 20px !important;
+                   }
+    
+                     
+                   }
+
+            }
+
+        }
+    }
+    
+}

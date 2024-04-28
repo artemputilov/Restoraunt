@@ -1,0 +1,51 @@
+body{
+    header{
+        .header__content{
+            .header__contacts {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    
+                        .header__contacts-info {
+                            
+                            
+                            .header__contacts-title {
+                                font-size: 50px;
+                                font-weight: 800;
+                                color: #D7D7D7;
+                                transition: 0.5s ease-in-out;
+                                
+                                margin-bottom: 5%;
+                            }
+
+                            .header__contacts-text {
+                                font-size: 14px;
+                                color: #D7D7D7;
+                                margin-bottom: 2%;
+                            }
+
+                            .reservation__contacts {
+                                color: #D7D7D7;
+                                font-size: 15px;
+                                font-weight: 300;
+                                transition: 0.5s ease-in-out;
+                                margin-bottom: 2%;
+                
+                
+                                &:hover {
+                                    color:white;
+                    
+                                }  
+                            }
+
+                            .cart {
+                                width: 800px;
+                                height: 400px;
+                                margin-bottom: 2%;
+                            }
+                        }
+            }
+        }
+    }
+}

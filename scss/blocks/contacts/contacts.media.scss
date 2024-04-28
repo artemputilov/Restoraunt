@@ -1,0 +1,93 @@
+@media (max-width: $breakpoint_l) {
+
+    body{
+        header{
+            .header__content{
+                .header__contacts {
+                        
+                            .header__contacts-info {
+                                .cart {
+                                    width: 600px;
+                                    margin-bottom: 2%;
+                                }
+                            }
+                }
+            }
+        }
+    }
+}    
+
+
+@media (max-width: $breakpoint_md) {
+
+    body{
+        header{
+            .header__content{
+                .header__contacts {
+                            .header__contacts-info {
+                                .header__contacts-title {
+                                    font-size: 35px;
+                                }
+                                .cart {
+                                    width: 500px;
+                                    margin-bottom: 2%;
+                                }
+                            }
+                }
+            }
+        }
+    }
+}    
+
+@media (max-width: $breakpoint_sm) {
+
+    body{
+        header{
+            .header__content{
+                .header__contacts {
+                    align-items: flex-start;
+                            .header__contacts-info {
+                                margin: 5%;
+                                .header__contacts-title {
+                                    font-size: 25px;
+                                    margin-top: 5%;
+                                }
+                                .reservation__contacts {
+                                padding: 5% 0 5% 0;
+                                }
+
+                                .cart {
+                                    width: 350px;
+                                    margin-bottom: 5%;
+                                }
+                            }
+                }
+            }
+        }
+    }
+}    
+
+@media (max-width: $breakpoint_s) {
+
+    body{
+        header{
+            .header__content{
+                .header__contacts {
+                    align-items: flex-start;
+                            .header__contacts-info {
+                                margin: 5%;
+                                .header__contacts-title {
+                                    font-size: 25px;
+                                    margin-top: 5%;
+                                }
+                                .cart {
+                                    width: 300px;
+                                    height: auto;
+                                    margin-bottom: 1%;
+                                }
+                            }
+                }
+            }
+        }
+    }
+}  
