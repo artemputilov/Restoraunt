@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
+@import "/node_modules/bootstrap/dist/css/bootstrap.css";
 html {
   height: 100%;
 }
@@ -833,6 +833,80 @@ body header .header__content .header__section .header__menu-section .reservation
   color: white;
 }
 
+body .ageverify {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  max-height: 500px;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0 auto;
+  font-size: 20px;
+  z-index: 999;
+}
+body .ageverify .ageverify__window {
+  display: flex;
+  flex-direction: column;
+}
+body .ageverify .ageverify__window .ageverify__window-title {
+  margin: 2%;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+}
+body .ageverify .ageverify__window .ageverify__window-text {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  margin: 2%;
+}
+body .ageverify button {
+  margin: 1%;
+  border: solid 2px black;
+  transition: 0.5s ease-in-out;
+}
+body .ageverify button:hover {
+  background-color: #000000;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+body .ageverify .ageverify__underbox {
+  display: none;
+  flex-direction: column;
+  gap: 10%;
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  padding: 2%;
+  display: none;
+}
+body .ageverify .ageverify__underbox .ageverify__underbox-title {
+  font-size: 15px;
+  font-weight: 800;
+  max-width: 500px;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.under .ageverify__window {
+  visibility: hidden;
+  opacity: 0;
+}
+.under .ageverify__underbox {
+  display: flex !important;
+}
+
+.blur {
+  width: 100%;
+  height: 100%;
+  filter: blur(5px);
+}
+
 @media (max-width: 1000px) {
   body header .header__content .header__section .header__menu-section.column {
     display: flex;
@@ -990,6 +1064,26 @@ body .header__content .reserve__form .reserve__input-label .reserve__submit-butt
   background-color: #D7D7D7;
   color: black;
   transition: 0.5s ease-in-out;
+}
+body .header__content .form__text {
+  display: none;
+}
+body .header__content .after .reserve__form {
+  display: none;
+}
+body .header__content .after .form__text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  font-size: 25px;
+  color: #D7D7D7;
 }
 
 input[type=time]::-webkit-calendar-picker-indicator {
