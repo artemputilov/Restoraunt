@@ -1,5 +1,6 @@
 body {
     .header__content {
+        
         .reserve__form {
             display: flex;
             flex-direction: column;
@@ -23,6 +24,7 @@ body {
                 text-align: center;
                 padding: 5vh;
             }
+            
 
             .reserve__form-input {
                 display: flex;
@@ -68,9 +70,42 @@ body {
                 }
             }
     }
+
+    .form__text {
+        display: none;
+    }
+
+    .after {
+        .reserve__form {
+            display:none;
+        }
+
+        .form__text {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            max-width: 500px;
+            font-size:25px;
+            color: #D7D7D7;
+    }
+
+    }
+}
 }
 
-}
+
+
+
+
 
 // Меняем цвет стандартной иконки часов и даты
 
